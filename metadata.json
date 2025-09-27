@@ -1,0 +1,5 @@
+{
+  "name": "AI Code Reviewer",
+  "description": "An intelligent, AI-powered code reviewer that analyzes code for quality, security, and performance, providing actionable insights and suggestions for improvement. Integrates with development workflows to automate reviews and enhance code standards.",
+  "requestFramePermissions": []
+}
