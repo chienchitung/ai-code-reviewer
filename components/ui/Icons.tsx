@@ -58,8 +58,10 @@ export const InformationCircleIcon: React.FC<IconProps> = ({ className }) => (
 );
 
 export const LanguageIcon: React.FC<IconProps> = ({ className }) => (
-  <svg className={className} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C13.18 7.061 14.289 7.5 15.5 7.5c1.21 0 2.32-.439 3.334-1.136M1 C1.12 5.25 2.233 5.212 3.334 5.136M9 21V3m0 18h-3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.5 6.75h-3.375a1.125 1.125 0 01-1.125-1.125V14.25" />
+  <svg className={className} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 21a9 9 0 100-18 9 9 0 000 18z" />
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.75 12h16.5" />
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 2.25c-2.485 0-4.5 4.03-4.5 9s2.015 9 4.5 9 4.5-4.03 4.5-9-2.015-9-4.5-9z" />
   </svg>
 );
 
